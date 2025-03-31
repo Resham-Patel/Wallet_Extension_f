@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  width:350px;
+  height:600px;
+  justify-content:flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.frontPageLogo{
+  width:80%;
+}
+.frontPageButton{
+  width:90%;
+  margin-bottom: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensures proper spacing between elements */
+  background-color: white;
+  height: 60px;
+  padding: 0 20px; /* Adds some padding */
+  width: 310px; /* Makes it span full width */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+.logo {
+  font-size: 2.5rem; /* Adjusted for a better fit */
+  color: rgb(103, 92, 103);
+  margin-right: 20px; /* Reduces excessive margin */
+}
+
+.dropdown {
+  width: 200px; /* Sets a standard width for the dropdown */
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.content {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.mnemonic {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #fffbe6;
+  border: 1px solid #ffe58f;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.seedPhraseContainer {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.nftGallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.nftImage {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
