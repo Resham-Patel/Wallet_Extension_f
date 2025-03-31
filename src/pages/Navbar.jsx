@@ -60,8 +60,7 @@ const Navbar = () => {
                 <div className="support-content">
                     <h2>It Supports</h2>
                     {/* <img src=""/> */}
-                    <p>Lorem, ipsum dolor sit amet cnus laudantium ex commoa delectus architecto voluptatibus?</p>
-                    <p>Lorem, ipsum dolor sit amet cnus laudantium ex commoa delectus architecto voluptatibus?</p>
+                    <p>The Browsers like Chrom, Edge, Firefox, etc.</p>
                 </div>
             </div>
         </nav>
