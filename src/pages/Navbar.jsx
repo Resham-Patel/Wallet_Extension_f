@@ -27,10 +27,7 @@ const Navbar = () => {
     return (
         <nav className={`navbar navbar-expand-lg fixed-top ${scrolling ? "navbar-dark bg-dark" : "navbar-light bg-transparent"}`}>
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
-                    {/* LOGO HERE */}
-                    <img src="/logo.png" alt="Wallet Logo" height="40" />Wallet Extension
-                </a>
+                <a className="navbar-brand" >Wallet Extension</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -38,9 +35,6 @@ const Navbar = () => {
                     <ul className="navbar-nav mx-auto">
                         <li className="nav-item" onMouseEnter={() => setFeatures(true)} onMouseLeave={() => setFeatures(false)}>
                             <a className="nav-link" href="#features">Features</a>
-                        </li>
-                        <li>
-                            <a className="nav-link" href="#security">Security</a>
                         </li>
                         <li className="nav-item" onMouseEnter={() => setSupport(true)} onMouseLeave={() => setSupport(false)}>
                             <a className="nav-link" href="#support">Support</a>
